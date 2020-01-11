@@ -1,0 +1,25 @@
+body {
+    front-size: 18px;
+    line-height: 1.5;
+}
+header,main,footer{
+    margin: auto;
+    max-width : 750px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    margin: 30px auto;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    boarder-radius:15px;
+    background-color: darkolivegreen;
+    color: lightgray;
+}
+img{
+    float:right;
+    height: 200px;
+    max-width: 760px;
+    boarder-top-right-radius:15px;
+    box-shadow: 3px 3px 15px 6px #4C7245
+}
