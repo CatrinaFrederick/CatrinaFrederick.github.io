@@ -10,24 +10,23 @@ header, main, footer {
 }
 header {
     margin: 0px auto;
-    font-size: 20px;
+    font-family:'Courgette', cursive;
+    font-size: 15px;
     text-align: center;
-    padding: 10px;
-    border-radius : 15px;
+    padding: 5px;
     background-color: darkolivegreen;
     color: lightgray;
 }
 
 img {
-    float: right;
     height: 200px;
     max-width: 760px;
-    border-top-right-radius: 15px ;
-    box-shadow: 0px 0px 6px 3px #4C7245;
-}
+    }
 
 main h2 {
     margin-bottom: 0px;
+    font-size: 20px;
+    font-family:'Courgette', cursive;
 }
 
 main ul{
@@ -40,7 +39,6 @@ footer {
     margin: 100px auto;
     text-align: center;
     padding: 15px;
-    border-radius: 15px;
     background-color: darkolivegreen;
 }
 
