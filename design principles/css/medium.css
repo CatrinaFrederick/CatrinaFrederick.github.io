@@ -1,10 +1,12 @@
 @media only screen and (min-width: 560px){
 
 /*main rules*/
+main{
+    grid-template-columns: 1fr 1fr;
+}
 
-main {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+#lastsection{
+    grid-column: span 2;
 }
 
 /* header rules*/
@@ -12,14 +14,13 @@ header {
     margin: 0px auto;
     font-size: 15px;
     text-align: left;
+    border-radius: 1rem;
     padding: 5px;
     padding-right: 30px;
     background-color:black;
     color: lightgray;
 }
 
-.lastgrid{
-    grid-column: span 2;
-}
+
 
 }/* end of media query*/

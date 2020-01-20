@@ -29,11 +29,10 @@ header h2{
 
 /*main rules*/
 
-main {
+main{
     display: grid;
-    grid-template-columns:1fr;
-    padding: 1em;
-}
+    grid-template-columns: 1fr;
+    }
 
 main h1{
     font-size: 40px;
@@ -46,7 +45,7 @@ main h3{
 
 /*section rules*/ 
 
-main section{
+  main section{
     margin : 0.5em;
     border: 0.1em solid #bbb;
     font-family: Helvetica;
@@ -65,6 +64,7 @@ main section p{
 .image {
     margin: 1em;
 }
+
 
 /*nave rules*/
 a:link {

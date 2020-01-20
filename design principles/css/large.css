@@ -3,13 +3,12 @@
 
 /*main rules*/
 
-main {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+main{
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-.lastgrid{
-    grid-column: span 1 ;
+#lastsection{
+    grid-column: span 1;
+    
 }
 
 }/* end of media query*/
