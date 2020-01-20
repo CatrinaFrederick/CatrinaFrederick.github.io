@@ -16,10 +16,9 @@ header {
     padding-right: 30px;
     background-color:black;
     color: lightgray;
-
 }
 
-#lastgrid{
+.lastgrid{
     grid-column: span 2;
 }
 
