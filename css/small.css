@@ -1,7 +1,11 @@
+/*body rules */
+
 body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+/* header rules */
 
 header, main, footer {
     margin: 15px auto;
@@ -17,6 +21,8 @@ header {
     background-color: darkolivegreen;
     color: lightgray;
 }
+
+/* image rules */ 
 
 img {
     height: 200px;
@@ -34,6 +40,21 @@ main ul{
     margin-bottom: 30px;
     font-size: 15px;
 }
+
+/*nav rules */ 
+main nav a {
+    color: darkolivegreen;
+}
+
+main nav a:hover {
+    color: darkgreen;
+}
+
+main nav a:visited{
+    color:lightgreen;
+}
+
+/* foooter rules*/ 
 
 footer {
     margin: 100px auto;
