@@ -1,0 +1,163 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    margin: 1em;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: 2%;
+    background-color: #335F5B;
+    
+}
+
+header img{
+    float: left;
+    width: 80px;
+    margin: 0em;
+    padding-right: 1em;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+    padding-top: .75em;
+    margin: 0;
+    font-size: 1.3rem;  
+}
+
+header h2 {
+    font-family:'Oswald', sans-serif;
+    font-style: regular;
+    margin: 0;
+    font-weight: normal;
+    font-size: .5rem;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color:#842100;
+    margin: 0;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5em;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+
+nav ul li a:hover {
+    background-color:#F74307;
+    color: #eee;
+}
+nav ul li.active a {
+    background-color:#F7931E;
+    color: #fff;
+    margin-left: 0;
+    }
+/*----------- MAIN --------------*/
+main {
+    padding: 0;
+    min-height: 10rem;
+}
+
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.wireframe{
+    width: 300px;
+    padding: 1em;
+  }
+
+.palette{
+    width: 90%;
+    align-content: center;
+    margin-left: 4em;
+    margin-bottom: 1em;
+}
+
+.typography{
+    width: 50%;
+}
+
+h1,h2{
+    color: #eee;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+    font-size: 3em;
+}
+
+
+main h3{
+    color: #eee;
+    background-color: #335F5B;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    border-radius: 2em;
+    padding: .5em;
+    width: 100%;   
+}
+
+h4 {
+    color: #842100;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    
+}
+
+h6{
+    color: #eee;
+    background-color: #335F5B;
+    padding: .5em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #335F5B;
+    color: #eee;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

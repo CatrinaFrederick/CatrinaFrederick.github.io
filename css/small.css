@@ -42,15 +42,15 @@ main ul{
 }
 
 /*nav rules */ 
-main nav a {
+main nav li a {
     color: darkolivegreen;
 }
 
-main nav a:hover {
+main nav li a:hover {
     color: darkgreen;
 }
 
-main nav a:visited{
+main nav li a:visited{
     color:lightgreen;
 }
 
