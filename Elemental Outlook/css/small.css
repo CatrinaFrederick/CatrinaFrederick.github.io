@@ -29,7 +29,6 @@ header img{
 
 header h1 {
     font-family: 'Oswald', sans-serif;
-    font-style: bold;
     padding-top: .75em;
     margin: 0;
     font-size: 1.3rem;  
@@ -37,7 +36,6 @@ header h1 {
 
 header h2 {
     font-family:'Oswald', sans-serif;
-    font-style: regular;
     margin: 0;
     font-weight: normal;
     font-size: .5rem;
@@ -112,7 +110,6 @@ h1,h2{
 
 h1{
     font-family: 'Oswald', sans-serif;
-    font-style: bold;
     font-size: 3em;
 }
 
@@ -151,6 +148,12 @@ footer {
     padding: .5rem 2%;
     text-align: center;
 }
+
+footer a{
+    color: #eee;
+}
+
+
 
 
 

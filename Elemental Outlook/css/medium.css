@@ -34,6 +34,9 @@ header h2{
 
 /*----------- MAIN --------------*/
 
+h3{
+    font-size: 3.5em;
+}
 h6{
     text-align: left;
  }
