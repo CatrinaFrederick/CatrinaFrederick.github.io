@@ -14,6 +14,14 @@
         margin-bottom: 0px;
         font-family:'Courgette', cursive;
     }
+    nav ul {
+        display: flex;}
+
+    nav ul li {
+        flex: 1 1 100%;
+        float: left;
+    }
+
     img {
         float: right;
         height: 200px;
@@ -27,4 +35,5 @@
         padding: 15px;
         border-radius: 15px;
         background-color: darkolivegreen;
+}
 }
