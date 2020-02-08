@@ -1,0 +1,102 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    
+    header image{
+        width: auto;
+        padding-top: 2em;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    
+    header h2{
+        font-size: 1.5rem;
+        padding-bottom: 1em;
+    }
+    /*----------- NAVIGATION --------------*/
+         nav button {
+        display: none;
+    }
+        nav ul.hide{
+            display: flex;}
+    
+        nav ul li {
+            flex: 1 1 100%;
+            float: left;
+    }
+    
+      
+    
+    
+    /*----------- MAIN --------------*/
+
+
+    h3{
+        font-size: 3.5em;
+    }
+
+    /*------------ 5day Forcast _-------*/ 
+    section.forcast{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    section.forcast div {
+      text-align: center;
+      border: 3px solid #335F5B;
+
+    }
+
+    section.forcast div h5 {
+        background-color: #335F5B;
+        font-size: 1.5em;
+        color: #eee;
+        padding: 1em;
+        margin-top: 0;
+    }
+/*----------Todays Forcast-----*/
+    section.todaysforcast p {
+    font-size: 2em;
+} 
+
+
+
+    .todaysforcast{
+    position: absolute; 
+    top: 1rem;  
+    left: 1em;
+    }
+
+
+       
+
+        
+  
+     /*-------Contact Us------*/
+    .contactus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10em;
+    }
+
+    .contactus p{
+        padding-top: 2em;
+    }
+     .mapimage {
+         display: block;
+     
+        
+    }
+    
+  
+    /*----------- FOOTER --------------*/
+   
+        
+  /* end of media query*/
