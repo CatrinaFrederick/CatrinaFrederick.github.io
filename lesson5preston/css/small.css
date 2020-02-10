@@ -30,14 +30,14 @@ header img{
     padding-right: 1em;
 }
 
-div#pancakebreakfast{
+div#pancake{
     background-color:#842100;
     font-size: .3rem;
     padding: .25rem;
     text-align: center;
     color: #eee;
 }
-#pancakebreakfast h3{
+#pancake h3{
     font-size: 4em;
 }
 div.showme{
