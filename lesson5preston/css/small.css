@@ -209,8 +209,17 @@ div#articlewrapper{
 
 /*---------Contact Us -----------*/
 .contactus{
-    margin-bottom: 1em;
-    margin-top: 1em;
+   display: flex;
+   margin: 0em;
+   
+}
+
+.address{
+    width: 50%;
+}
+
+.phoneemail{
+    width: 50%;
 }
 
 .map{

@@ -88,14 +88,25 @@
   
      /*-------Contact Us------*/
     section.contactus{
-        display: grid
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-left: 10rem;
+        display: flex;
+        margin: 0em;
+    }
+
+    .address{
+        width: 33%;
+    }
+
+    .phoneemail{
+        width: 33%;
     }
     
     .map{
         display: block;
+        float: right;
+        width: .33%;
     }
+
+    
   
     /*----------- FOOTER --------------*/
 
