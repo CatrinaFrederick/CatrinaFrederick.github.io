@@ -20,7 +20,6 @@ div#headerWrapper{
 header {
     padding: 2%;
     background-color: #335F5B;
-    
 }
 
 header img{
@@ -31,12 +30,15 @@ header img{
     padding-right: 1em;
 }
 
-div#pancakebreakfast {
+div#pancakebreakfast{
     background-color:#842100;
     font-size: .3rem;
     padding: .25rem;
     text-align: center;
     color: #eee;
+}
+#pancakebreakfast h3{
+    font-size: 4em;
 }
 div.showme{
     display: block;
@@ -104,8 +106,9 @@ nav ul li a:hover {
 
 nav ul.hide{
         display: none;
-    
-    }
+ }
+
+
 /*----------- MAIN --------------*/
 main {
     padding: 0;
@@ -149,12 +152,14 @@ section.todaysforcast{
     text-align: left;
     padding-left: 1em;
     margin-top: .5em;
+    font-size: 3em;
 }
 
 .todaysforcast p {
     text-align: left;
     padding-left: 1em;
     padding-right: 1em;
+    font-size: 1em;
 }
 
 /*--------5 Day Forcast ------*/ 
@@ -162,12 +167,6 @@ section.todaysforcast{
 section.forcast{
     display: none;
     margin-top:1em;
-}
-
-
-
-.articleimage{
-    max-width: 40%;
 }
 
 
@@ -191,30 +190,37 @@ h1.pagename{
 
 .prestonh2{
     margin-top: 1em;
+    padding: 1em;
 }
 
 /*-------Article Rules -----*/
 div#articlewrapper{
     margin-top: 0;
+
 }
 
-.prestonh2 {
-    padding: 1rem;
-}
+.articleimage{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 2em;
+    }
+
+
+
 
 /*---------Contact Us -----------*/
 .contactus{
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
-.mapimage{
+.map{
     display: none;
-    max-width: 80%;
-   }
+}
 
 
 /*----------- FOOTER --------------*/
-div#footerWrapper{
+.footerWrapper{
     background-color: #335F5B;
  }
 

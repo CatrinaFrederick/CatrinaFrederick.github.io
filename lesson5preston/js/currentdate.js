@@ -3,13 +3,25 @@
 function toggleMenu() {
     document.getElementById("mainNav").classList.toggle("hide");
 }
+/*pancake breakfast banner*/
+
+let today = new Date();
+let dayofWeek = today.getDay();
+let banner = document.getElementById("pancakebreakfast");
+
+if (dayofWeek == 3) {
+    banner.classlist.add("showme");
+} 
+else {
+    banner.classlist.add("hideme");
+}
 
 /* date for footer */
-var today = new Date();
-var date = (today.getMonth()+1) + "/" + today.getDate() + "/" + today.getFullYear();
+let today = new Date();
+let date = (today.getMonth() + 1) + "/" + today.getDate() + "/" + today.getFullYear();
 /*var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 var dateTime = date+' '+time;*/
-var dateTime = date;
+let dateTime = date;
 document.write("Today is: " + dateTime);
 
 
