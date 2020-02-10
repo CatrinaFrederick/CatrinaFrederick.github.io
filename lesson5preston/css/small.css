@@ -142,7 +142,6 @@ main p{
 /*--------Current Weather----------*/
 section.todaysforcast{
     background-color: #842100;
-    opacity: .8;
     color: #eee;
     margin: 0 auto;   
     padding:.5em ;

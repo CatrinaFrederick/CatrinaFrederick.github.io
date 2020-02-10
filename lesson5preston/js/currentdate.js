@@ -1,20 +1,4 @@
-/*button toggle function to toggle hamburger button for small view ports*/
 
-function toggleMenu() {
-    document.getElementById("mainNav").classList.toggle("hide");
-}
-/*pancake breakfast banner*/
-
-let today = new Date();
-let dayofWeek = today.getDay();
-let banner = document.getElementById("pancakebreakfast");
-
-if (dayofWeek == 3) {
-    banner.classlist.add("showme");
-} 
-else {
-    banner.classlist.add("hideme");
-}
 
 /* date for footer */
 let today = new Date();
