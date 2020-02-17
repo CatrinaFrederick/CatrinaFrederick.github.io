@@ -66,7 +66,14 @@
         <h1 class="pagename">Preston</h1>
 
         <div class="herodiv">
-            <div><img src="images/hero1.jpg" alt="Man on Mountain" class="hero1"></div>
+            <div>
+                <picture class="hero1">
+                    <source media="(max-width:200)" srcset="images/franklinOriginal200.jpg" c>
+                    <source media="(max-width:500)" srcset="images/franklinOriginal500.jpg">
+                    <source media="(max-width:800)" srcset="images/franklinOriginal800.jpg">    
+                <img src="images/franklinOriginal1026.jpg" alt="Man on Mountain" class="hero1">
+                </picture>
+            </div>
 
             <section class="todaysforcast">
                 <h3>Todays Forcast</h3>
