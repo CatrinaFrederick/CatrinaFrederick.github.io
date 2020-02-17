@@ -24,7 +24,6 @@
     <link href="css/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
     <link href="css/laege.css" rel="stylesheet">
-   
 
 
 
@@ -33,7 +32,7 @@
 <body>
     <!-- HEADER HERE -->
     <div id="headerWrapper">
-             <div id="pancake" class="showme">
+        <div id="pancake" class="showme">
             <h3>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</h3>
         </div>
         <header class="clearfix">
@@ -75,7 +74,8 @@
                 <p>High:<span id="high">50</span>&deg;</p>
                 <p>Feels Like:<span id="feelslike">48</span>&deg;</p>
                 <p>Humidity:<span id="humidity">20</span>&percnt;</p>
-                <p>Wind Speed:<span id="windspeed">10mph</span></p>
+                <p>Wind Speed:<span id="windspeed">10</span>mph</p>
+                <p id="wchill"></p>
             </section>
         </div>
 
@@ -170,9 +170,10 @@
     </main>
 
     <script src="js/togglemenu.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/banner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="webfontload.js"></script>
+    <script src="js/getwindchill.js"></script>
 </body>
 
 </html>

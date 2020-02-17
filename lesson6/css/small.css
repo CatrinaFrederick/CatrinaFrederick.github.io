@@ -1,0 +1,254 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    margin: 1em;
+}
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper{
+    background-color:#335F5B ;
+}
+header {
+    padding: 2%;
+    background-color: #335F5B;
+}
+
+header img{
+    float: left;
+    width: 80px;
+    margin: .1rem;
+    margin-top: 1em;
+    padding-right: 1em;
+}
+
+div#pancake{
+    background-color:#842100;
+    font-size: .3rem;
+    padding: .25rem;
+    text-align: center;
+    color: #eee;
+}
+#pancake h3{
+    font-size: 4em;
+}
+div.showme{
+    display: block;
+}
+
+div.hideme{
+    display: none;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    padding-top: .75em;
+    margin: 0;
+    font-size: 3.1em;  
+}
+
+header h2 {
+    font-family:'Oswald', sans-serif;
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+/*----------- NAVIGATION --------------*/
+div#navWrapper { 
+    background-color:#842100
+}
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #eee;
+}
+nav {
+    background-color:#842100;
+    margin: 0;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5em;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+nav ul li.active a {
+    background-color:#F7931E;
+    color: #fff;
+    margin-left: 0;
+    }
+
+nav ul li a:hover {
+    background-color:#F74307;
+    color: #eee;
+}
+
+nav ul.hide{
+        display: none;
+ }
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0;
+    min-height: 10rem;
+}
+
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.pagename{
+    margin-bottom: 0em;
+}
+
+
+.herodiv{
+    position: relative;
+    max-width: 100%;
+    height: 450px;
+}
+
+.hero1 {
+    max-width: 100%;
+}
+
+/*--------Current Weather----------*/
+section.todaysforcast{
+    background-color: #842100;
+    color: #eee;
+    margin: 0 auto;   
+    padding:.5em ;
+}
+
+.todaysforcast h3{
+    text-align: left;
+    padding-left: 1em;
+    margin-top: .5em;
+    font-size: 3em;
+}
+
+.todaysforcast p {
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+}
+
+/*--------5 Day Forcast ------*/ 
+
+section.forcast{
+    display: none;
+    margin-top:1em;
+}
+
+
+.typography{
+    width: 50%;
+}
+
+h1,h2{
+    color: #eee;
+    background-color: #335F5B;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+
+h1.pagename{
+    padding: 1rem;
+}
+
+.prestonh2{
+    margin-top: 1em;
+    padding: 1em;
+}
+
+/*-------Article Rules -----*/
+div#articlewrapper{
+    margin-top: 0;
+
+}
+
+.articleimage{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 2em;
+    }
+
+
+
+
+/*---------Contact Us -----------*/
+.contactus{
+   display: flex;
+   margin: 0em;
+   
+}
+
+.address{
+    width: 50%;
+}
+
+.phoneemail{
+    width: 50%;
+}
+
+.map{
+    display: none;
+}
+
+
+/*----------- FOOTER --------------*/
+.footerWrapper{
+    background-color: #335F5B;
+ }
+
+footer {
+    color: #eee;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+footer a{
+    color: #eee;
+}
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -8,3 +8,6 @@ var dateTime = date+' '+time;*/
 let dateTime = date;
 document.write("Today is: " + dateTime);
 
+
+
+
