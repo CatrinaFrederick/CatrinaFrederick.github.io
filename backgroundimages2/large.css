@@ -1,0 +1,83 @@
+/*body rules here */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/* header rules here*/
+header {
+    background-color: #442614;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+    color: #e7cc9d;
+}
+
+header h2 {
+    margin: 0;
+    color: #e7cc9d;
+}
+
+/*navigation rules here*/
+nav li {
+    float: left;
+    width: 25%;
+}
+
+nav {
+    background-color: #e7cc9d;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li.active {
+    background-color: #d6aa5c;
+}
+
+nav a {
+    display: block;
+    padding: .8rem 0;
+    /*.44 min height*/
+    color: #442614;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #975532;
+}
+
+
+/*background image rules*/
+.heroimage {
+    background: url(https://catrinafrederick.github.io/ranch/images/cows.jpg);
+    background-position: left top, right bottom;
+    background-repeat: repeat , no-repeat;
+    position: relative;
+}
+
+
+.herotext {
+    text-align: canter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #000000;
+    color: #eee;
+    opacity: .8;
+    padding: 2%;
+}
+
+.herotext h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4em;
+}
