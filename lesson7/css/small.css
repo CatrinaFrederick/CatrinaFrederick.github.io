@@ -247,11 +247,13 @@ footer a{
 
 .gallerygrid{
     background-color: #335F5B;
-    padding: 2em;
+    
 }
 
-.galleryimages{
+#galleryimages{
+    display: grid;
     grid-template-columns: 1fr;
+    max-width: 80%;
 }
 
 .gallerycaption{

@@ -27,12 +27,16 @@
 
 
 
-.galleryimages{
-    grid-template-columns: 1fr 1fr 1fr;
+#galleryimages{
+    grid-template-columns: 1fr 1fr 1fr;   
 }
 
 .gallerycaption{
     display: block;
+}
+
+figure:hover{
+    box-shadow: 3px 3px 3px 3px #eeeeee;
 }
     
 } /* end of media query */
