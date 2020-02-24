@@ -51,7 +51,7 @@
     /*------------ 5day Forcast _-------*/ 
     section.forcast{
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
      }
 
     section.forcast div {

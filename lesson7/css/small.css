@@ -252,8 +252,7 @@ footer a{
 
 #galleryimages{
     display: grid;
-    grid-template-columns: 1fr;
-    max-width: 80%;
+    grid-template-columns: 1fr;    
 }
 
 .gallerycaption{
@@ -261,6 +260,8 @@ footer a{
     text-align: center;
     display: none;
 }
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
