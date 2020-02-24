@@ -113,6 +113,14 @@ section.todaysforcast h3{
         margin-bottom: 1em;
     }
 
+    /*---------Gallery Rules-------*/
+
+
+ .galleryimages{
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+}
+
     
   
     /*----------- FOOTER --------------*/

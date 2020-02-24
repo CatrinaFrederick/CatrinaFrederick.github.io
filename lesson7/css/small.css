@@ -243,8 +243,22 @@ footer a{
 }
 
 
+/*---------Gallery Rules-------*/
 
+.gallerygrid{
+    background-color: #335F5B;
+    padding: 2em;
+}
 
+.galleryimages{
+    grid-template-columns: 1fr;
+}
+
+.gallerycaption{
+    color: #eee;
+    text-align: center;
+    display: none;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
