@@ -65,9 +65,10 @@ tr {
 tr:nth-child(odd){
     background-color:#e7ffed;
     color: #000000;;
-   
+ }
+ tbody tr:nth-child(6) td:first-child{
+    font-style: italic;
 }
-
 tfoot tr th{
     color: #000000;
     background-color: #7fb9c2;
