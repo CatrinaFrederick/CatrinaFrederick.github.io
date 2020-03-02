@@ -248,6 +248,7 @@ footer a{
 
 .gallerygrid{
     background-color: #335F5B;
+    max-width: 100%;
     
 }
 
@@ -261,6 +262,8 @@ footer a{
     text-align: center;
     display: none;
 }
+
+/*-------------FORM---------------*/
 
 
 
