@@ -29,7 +29,6 @@
 
 #galleryimages{
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 100%;
 }
 
 .gallerycaption{

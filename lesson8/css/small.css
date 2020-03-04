@@ -246,15 +246,16 @@ footer a{
 
 /*---------Gallery Rules-------*/
 
-.gallerygrid{
-    background-color: #335F5B;
-    max-width: 100%;
-    
-}
-
 #galleryimages{
     display: grid;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr; 
+    justify-content: center;
+    max-width: 100%;
+    background-color: #335F5B;
+}
+
+img{
+    max-width: 100%;
 }
 
 .gallerycaption{
@@ -262,6 +263,7 @@ footer a{
     text-align: center;
     display: none;
 }
+
 
 /*-------------FORM---------------*/
 
