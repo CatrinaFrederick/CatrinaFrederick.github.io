@@ -15,6 +15,7 @@ header {
     /*-------Main---------*/
     .body{
         max-width: 90%;
+        background-color: gray;
     }
      .cards{
     display: grid;
