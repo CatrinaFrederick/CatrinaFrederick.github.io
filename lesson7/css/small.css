@@ -253,7 +253,10 @@ footer a{
 
 #galleryimages{
     display: grid;
-    grid-template-columns: 1fr;    
+    justify-content: center;
+    grid-template-columns: 1fr;
+  
+
 }
 
 .gallerycaption{

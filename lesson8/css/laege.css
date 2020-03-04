@@ -40,7 +40,7 @@ form label.sbs{
 }
 
 figure:hover{
-    box-shadow: 3px 3px 3px 3px #eeeeee;
+    box-shadow: 0 0 10px #eeeeee;
 }
     
 } /* end of media query */

@@ -29,6 +29,7 @@
 
 #galleryimages{
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
 }
 
 .gallerycaption{
@@ -36,7 +37,7 @@
 }
 
 figure:hover{
-    box-shadow: 3px 3px 3px 3px #eeeeee;
+    box-shadow: 0 0 10px #eee;
 }
     
 } /* end of media query */
