@@ -86,7 +86,16 @@ section.todaysforcast h3{
     }
 
     
+/*----------Home Page----------*/ 
+.cards{
+    grid-template-rows: 1fr;
+   }  
 
+.cards section h2 h3 p{
+    display: flex;
+    flex-direction: row;
+
+}
 
        
 

@@ -24,7 +24,13 @@ form label.sbs{
     padding: .1rem 0;
 }
 
-
+/*----------Home Page----------*/ 
+.cards{
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
+   }  
 
 /*----------- FOOTER --------------*/
 /*---------Gallery Rules-------*/
