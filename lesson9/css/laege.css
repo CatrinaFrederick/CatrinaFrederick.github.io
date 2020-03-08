@@ -26,11 +26,12 @@ form label.sbs{
 
 /*----------Home Page----------*/ 
 .cards{
-  
     grid-template-columns: 1fr 1fr 1fr;
+    } 
     
-   
-   }  
+    .cards section{
+        display: block;
+    }
 
 /*----------- FOOTER --------------*/
 /*---------Gallery Rules-------*/
