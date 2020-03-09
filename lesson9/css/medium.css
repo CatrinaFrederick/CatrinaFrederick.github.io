@@ -128,12 +128,10 @@ section.todaysforcast h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-
-     
-    }
+ }
 
  
- .homearticleimage {
+ .homearticleimage , .homearticleimageodd {
     display: block;
     max-width: 100%;
 }

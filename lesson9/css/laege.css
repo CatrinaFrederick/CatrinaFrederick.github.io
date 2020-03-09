@@ -33,6 +33,29 @@ form label.sbs{
         display: block;
     }
 
+    /*------article rules----*/
+
+    section.homearticles{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .homearticleimage{
+        max-width: 33%;
+        float: left;
+        padding-right: 1em; 
+    }
+
+    .homearticleimageodd {
+        max-width: 33%;
+        float:right;
+        padding-left: 1em;
+    }
+
+   
+
+
 /*----------- FOOTER --------------*/
 /*---------Gallery Rules-------*/
 

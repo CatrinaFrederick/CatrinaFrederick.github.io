@@ -261,7 +261,20 @@ div#articlewrapper{
    }
 
    /*------- Home Page Articles --------*/
-   .homearticleimage {
+   .homearticleimage{
+       display: grid;
+       grid-template-columns: 1fr;
+       justify-content: center;
+   }
+   
+   .articlesh2{
+        background-color: #842100;
+        padding: .5em;
+    }
+   
+
+  
+   .homearticleimage , .homearticleimageodd{
        display: none;
    }
 
