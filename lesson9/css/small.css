@@ -210,6 +210,7 @@ div#articlewrapper{
     }
 
 /*----------Home Page----------*/ 
+
    .cards{
     display: grid;
     grid-template-columns: 1fr;
@@ -254,12 +255,19 @@ div#articlewrapper{
     color: #eee;
 }
 
-
-  
-
    .cards img{
         max-width: 90%;
         box-shadow: 0 0 10px #000000;
+   }
+
+   /*------- Home Page Articles --------*/
+   .homearticleimage {
+       display: none;
+   }
+
+   .homearticles{
+       max-width: 90%;
+       align-content: center;
    }
 
 

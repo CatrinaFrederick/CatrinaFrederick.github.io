@@ -96,7 +96,6 @@ section.todaysforcast h3{
 .cards section image{
    grid-column: 2 ;
    grid-row-start: 2;
-   grid-row-end: 4;
    justify-self: center;
  }
 
@@ -115,12 +114,32 @@ section.todaysforcast h3{
 
 .cards section:nth-child(2) h3{
     grid-column-start: 2;
+    grid-row-start: 2;
     
 }
 
 .cards section:nth-child(2) p{
     grid-column-start: 2;
     
+}
+
+ /*------- Home Page Articles --------*/
+  section.homearticles{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap:1em;
+      
+  }
+ 
+
+
+
+ 
+ .homearticleimage {
+    display: block;
+    max-width: 100%;
+    justify-self center;
+   
 }
 
 
