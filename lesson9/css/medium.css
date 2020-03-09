@@ -125,21 +125,17 @@ section.todaysforcast h3{
 
  /*------- Home Page Articles --------*/
   section.homearticles{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap:1em;
-      
-  }
- 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
 
-
+     
+    }
 
  
  .homearticleimage {
     display: block;
     max-width: 100%;
-    justify-self center;
-   
 }
 
 
