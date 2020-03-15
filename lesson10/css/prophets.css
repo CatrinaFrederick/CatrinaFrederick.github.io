@@ -1,0 +1,88 @@
+/*----------Header--------*/
+
+header {
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: gray;
+    color: #eee;
+    margin-bottom: 2em;
+
+    }
+
+    /*-------Main---------*/
+    .body{
+        max-width: 90%;
+        background-color: gray;
+    }
+     .cards{
+    display: grid;
+    grid-gap: .75rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+   }
+
+    section{
+       padding: 1rem .25rem;
+        width: 100%;
+        background-color: teal;
+        color: #eee;
+        text-align: center;
+        font-family: sans-serif;
+        }
+        section:hover{
+            background-color: gray;
+        }
+
+    section h2{
+        font-size: 1.25rem;
+        margin: 0 auto;
+
+    }
+    section p{
+        font-size: .75rem;
+        margin: .25rem auto;
+    }
+ 
+
+   img {
+       width: 50%;
+        box-shadow: 0 0 10px #000000;
+
+        margin: .5rem 0;
+       
+   }
+
+
+
+
+
+    /*----------Footer------*/
+   
+footer{
+    margin-top: 2em;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    color: #eee;
+    background-color: gray;
+}
+
+footer a{
+    color: white;
+}
+
+@media(min-width: 35em){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 62em){
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 60em;
+        margin: auto;
+    }

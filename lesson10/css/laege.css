@@ -1,0 +1,76 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+/*-----------Form---------------*/
+form label.sbs{
+    padding: .1rem 0;
+}
+
+/*----------Home Page----------*/ 
+.cards{
+    grid-template-columns: 1fr 1fr 1fr;
+    } 
+    
+    .cards section{
+        display: block;
+    }
+
+    /*------article rules----*/
+
+    section.homearticles{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .homearticleimage{
+        max-width: 33%;
+        float: left;
+        padding-right: 1em; 
+    }
+
+    .homearticleimageodd {
+        max-width: 33%;
+        float:right;
+        padding-left: 1em;
+    }
+
+   
+
+
+/*----------- FOOTER --------------*/
+/*---------Gallery Rules-------*/
+
+
+
+#galleryimages{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallerycaption{
+    display: block;
+}
+
+figure:hover{
+    box-shadow: 0 0 10px #eeeeee;
+}
+    
+} /* end of media query */
