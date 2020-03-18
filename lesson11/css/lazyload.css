@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+main{
+    max-width: 600px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{ 
+   text-align: center;
+}
+
+img{
+    border: 5px solid purple;
+    padding: 2px;
+    transition: filter 0.5s;
+   }
+
+   img[data-src]{
+       filter: blur();
+   }
+
+

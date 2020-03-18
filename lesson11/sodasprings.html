@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Soda Springs">
+    <meta name="author" content="Catrina Frederick">
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <title>Preston</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <!--EMBEDED FONT-->
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/laege.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <div id="headerWrapper">
+        <div id="pancake" class="showme">
+            <h3>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</h3>
+        </div>
+        <header class="clearfix">
+            <img class="logo" src="images/logo2x.png" alt="Elemental Outlook Logo">
+            <h1>Elemental Outlook</h1>
+            <h2>Preparing You To Face The Elements</h2>
+        </header>
+    </div>
+
+
+    <!-- NAVIGATION HERE -->
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="mainNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- CONTENT HERE -->
+
+    <main class="clearfix">
+        <h1 class="pagename">Soda Springs</h1>
+
+        <div class="herodiv">
+            <div>
+                <picture class="hero1">
+                    <source media="(max-width:200)" srcset="images/hero1300.jpg">
+                    <source media="(max-width:500)" srcset="images/hero1500.jpg">
+                    <source media="(max-width:800)" srcset="images/hero1.jpg">    
+                <img src="images/hero1.jpg" alt="Man on Mountain" class="hero1">
+                </picture>
+            </div>
+
+            <section class="todaysforcast">
+                <h3>Todays Forcast</h3>
+                <p>Current: <span id="current">0</span>&deg;F</p>
+                <p>High: <span id="high">0</span>&deg;F</p>
+                <p>Feels Like: <span id="feelslike">0</span>&deg;F</p>
+                <p>Humidity: <span id="humidity">0</span>&percnt;</p>
+                <p>Wind Speed: <span id="windspeed"></span>mph</p>
+                <p id="wchill"> </p>
+            </section>
+        </div>
+    
+        <section id="fivedayforcast" class="forcast"></section>
+    
+        <div>
+            <h2 class="prestonh2">10th Anniversary of Napoleon Dynamite Celebrated with Errection of Bronze Statue</h2>
+        </div>
+        <div class="articlewrapper clearfix">
+          
+                <img src="images/articleimage.jpg" alt="Napoleon Dynamite Cast with 10th anniverary statue"
+                    class="articleimage">
+           
+            <p>
+               
+            </p>
+        </div>
+
+        <div class="clearfix">
+            <h2 class="prestonh2">Contact Us</h2>
+            <section class="contactus">
+                <div class="address">
+                    <h4>Address:</h4>
+                    <p> Elemental Outlook<br> 123 Main Street<br> Prestion, ID 98765</p>
+                </div>
+                <div class="phoneemail">
+                    <h4>Phone:</h4>
+                    <p>(801)555-1234</p>
+                    <h4>Email:</h4>
+                    <p>contact@elementaloutlook.com</p>
+                </div>
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.912989661156!2d-111.6237917850918!3d42.66147063554133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1584564378663!5m2!1sen!2sus"
+                        width="300" height="200" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </section>
+        </div>
+
+
+
+    </main>
+        <!-- FOOTER HERE -->
+        <div class="footerWrapper">
+            <footer>
+                &copy; 2020 &bull; Catrina Frederick &bull;<a href="#"> Terms of Use</a> &bull; <script
+                    src="js/currentdate.js"></script>
+            </footer>
+        </div>
+    
+
+    <script src="js/togglemenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/soadaspringapi.js"></script>
+</body>
+
+</html>

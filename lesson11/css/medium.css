@@ -1,0 +1,193 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+    
+    header image{
+        width: auto;
+        padding-top: 2rem;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    
+    header h2{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    /*----------- NAVIGATION --------------*/
+         nav button {
+        display: none;
+    }
+        nav ul.hide{
+            display: flex;}
+    
+        nav ul li {
+            flex: 1 1 100%;
+            float: left;
+    }
+    
+      
+    
+    
+    /*----------- MAIN --------------*/
+
+
+    h3{
+        font-size: 3.5rem;
+    }
+
+    .articleimage{
+        max-width: 50%;
+        float: right;
+  }
+
+    /*------------ 5day Forcast _-------*/ 
+    section.forcast{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;
+     }
+
+    section.forcast div {
+      text-align: center;
+      border: 3px solid #335F5B;
+
+    }
+
+    section.forcast div h5 {
+        background-color: #335F5B;
+        font-size: 1.5rem;
+        color: #eee;
+        padding: 1rem;
+        margin-top: 0;
+    }
+/*----------Todays Forcast-----*/
+section.todaysforcast h3{
+    font-size: 2em;
+    padding-right: 1em;
+}
+    section.todaysforcast p {
+    font-size: 1.5em;
+} 
+
+
+
+    .todaysforcast{
+    position: absolute; 
+    top: 1rem;  
+    left: 1rem;
+    opacity: .8;
+    }
+
+    
+/*----------Home Page----------*/ 
+.cards section{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+   
+}
+
+.cards section image{
+   grid-column: 2 ;
+   grid-row-start: 2;
+   justify-self: center;
+ }
+
+ .cards section h2 , h3 , p{
+     grid-column-start: 3;
+}
+
+ .cards section:nth-child(2) image {
+   grid-column: 3;    
+ }
+
+ .cards section:nth-child(2) h2 {
+     grid-column-start: 2;
+    
+ }
+
+.cards section:nth-child(2) h3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    
+}
+
+.cards section:nth-child(2) p{
+    grid-column-start: 2;
+    
+}
+
+ /*------- Home Page Articles --------*/
+  section.homearticles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+ }
+
+ 
+ .homearticleimage , .homearticleimageodd {
+    display: block;
+    max-width: 100%;
+}
+
+
+    
+
+ 
+ 
+
+
+
+
+
+
+
+
+       
+
+        
+  
+     /*-------Contact Us------*/
+    section.contactus{
+        display: flex;
+        margin-left: 3em;
+       
+    }
+
+    .address{
+        width: 33%;
+    }
+
+    .phoneemail{
+        width: 33%;
+    }
+    
+    .map{
+        display: block;
+        float: right;
+        width: .33%;
+        margin-bottom: 1em;
+    }
+
+    /*---------Gallery Rules-------*/
+
+
+  #galleryimages{
+    grid-template-columns: 1fr 1fr;
+}
+
+    
+  
+    /*----------- FOOTER --------------*/
+
+
+
+   
+/* end of media query*/
