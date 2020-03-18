@@ -9,5 +9,15 @@ let dateTime = date;
 document.write("Today is: " + dateTime);
 
 
+//banner for pancake breakfast 
 
+let dayofWeek = today.getDay();
 
+let banner = document.getElementById("pancake");
+
+if (dayofWeek == 5) {
+    banner.classList.add("showme");
+} 
+else {
+    banner.classList.add("hideme");
+}
