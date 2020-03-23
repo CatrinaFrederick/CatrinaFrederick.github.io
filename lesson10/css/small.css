@@ -142,6 +142,7 @@ main p{
 
 .hero1 {
     max-width: 100%;
+    margin-bottom: 1em;
 }
 
 /*--------Current Weather----------*/
@@ -197,6 +198,11 @@ h1.pagename{
     padding: 1em;
 }
 
+/*---------Upcoming Events----*/
+div.upcomingevents h2{
+    padding: 1em;
+  
+}
 /*-------Article Rules -----*/
 div#articlewrapper{
     margin-top: 0;

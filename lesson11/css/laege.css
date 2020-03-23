@@ -19,6 +19,11 @@
 
 
 /*----------- MAIN --------------*/
+.articleimage{
+    max-width: 33%;
+    
+}
+
 /*-----------Form---------------*/
 form label.sbs{
     padding: .1rem 0;

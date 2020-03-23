@@ -111,3 +111,45 @@ fetch(fiveDayapiURL)
     } //end for statement
 
   });
+
+
+  //upcoming events 
+  const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+  fetch(requestURL)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      const towns = jsonObject['towns'];
+      console.log(towns);
+      //loop to check array for requested infromation 
+      for (let i = 0; i < towns.length; i++ ) {
+      //specifiy specific towns in town array to display 
+          if (towns[i].name === "Fish Haven" ){
+     //create html elements      
+          let eventcard = document.createElement('section'); 
+          let h2 = document.createElement('h2')
+          let par1 = document.createElement('p');
+          let par2 = document.createElement('p');
+          let par3 = document.createElement('p');
+  
+      
+               
+     //assign content to the elements 
+          h2.innerHTML = 'Upcoming Events';
+          par1.innerHTML= towns[i].events[0];
+          par2.innerHTML = towns[i].events[1];
+          par3.innerHTML = towns[i].events[2];
+          
+     //Append content to HTML 
+          eventcard.appendChild(h2); 
+          eventcard.appendChild(par1);
+          eventcard.appendChild(par2);
+          eventcard.appendChild(par3);
+  
+    //commit to document 
+          document.querySelector('div.upcomingevents').appendChild(eventcard);
+      }
+      }
+    });

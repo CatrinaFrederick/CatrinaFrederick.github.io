@@ -46,6 +46,7 @@
     .articleimage{
         max-width: 50%;
         float: right;
+        padding: 1em;
   }
 
     /*------------ 5day Forcast _-------*/ 
@@ -95,25 +96,20 @@ section.todaysforcast h3{
     grid-template-columns: 1fr 1fr;
     padding: 1em;
 }
-
-.cards section image{
-    grid-row: 1/6;
-    justify-content: center;
- }
-
- .cards section:nth-child(2) image{
-     grid-column-start: 2;
-        
-    
-}
-.cards section:nth-child(2) h2{
+.cards section p {
+    grid-column-start: 1 ;
+}  
+.cards section h3{
     grid-column-start: 1;
-    grid-row-start: 1;
+}
+
+.cards section:nth-child(2) image{
+    grid-column-start: 1;
 }
 
 
  
-
+/*---------Upcoming Events----*/
 
 
  /*------- Home Page Articles --------*/
@@ -123,6 +119,9 @@ section.todaysforcast h3{
     grid-gap: 1em;
  }
 
+  .articlesh2 {
+ text-align: left;
+ }
  
  .homearticleimage , .homearticleimageodd {
     display: block;

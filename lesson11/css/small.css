@@ -126,7 +126,13 @@ main p{
 }
 
 .logo{
+    margin-top: 2em;
     width: 80px;
+}
+
+.logo:hover{
+    box-shadow: 0 0 10px #eeeeee;
+
 }
 
 .pagename{
@@ -203,11 +209,17 @@ div#articlewrapper{
 
 }
 
+
 .articleimage{
     display: block;
     max-width: 100%;
-    margin-bottom: 2em;
-    }
+    
+}
+
+.article p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
 
 /*----------Home Page----------*/ 
 
@@ -260,6 +272,29 @@ div#articlewrapper{
         box-shadow: 0 0 10px #000000;
    }
 
+   /*---------Upcoming Events----*/
+
+div.upcomingevents h2{
+    padding: 1em;
+    font-weight: bolder;
+    text-align: center;
+  }
+  div.upcomingevents{
+      margin-top: 1em;
+      border-bottom:   solid 2px #335F5B;
+      border-left: solid 2px #335F5B;
+      border-right: solid 2px #335F5B;
+  }
+  div.upcomingevents p{
+      font-family: 'Oswald', sans-serif;
+      color: #842100;
+      font-weight: bold;
+      text-align: center;
+    
+  }
+
+
+
    /*------- Home Page Articles --------*/
    .homearticleimage{
        display: grid;
@@ -270,6 +305,7 @@ div#articlewrapper{
    .articlesh2{
         background-color: #842100;
         padding: .5em;
+        text-align: center;
     }
    
 
@@ -279,6 +315,7 @@ div#articlewrapper{
    }
 
    .homearticles{
+       margin: 1.5em;
        max-width: 90%;
        align-content: center;
    }
