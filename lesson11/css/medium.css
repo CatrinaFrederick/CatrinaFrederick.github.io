@@ -96,15 +96,9 @@ section.todaysforcast h3{
     grid-template-columns: 1fr 1fr;
     padding: 1em;
 }
-.cards section p {
-    grid-column-start: 1 ;
-}  
-.cards section h3{
-    grid-column-start: 1;
-}
 
-.cards section:nth-child(2) image{
-    grid-column-start: 1;
+.cards :nth-child(2) :nth-child(1){
+    grid-area: 1/2;
 }
 
 

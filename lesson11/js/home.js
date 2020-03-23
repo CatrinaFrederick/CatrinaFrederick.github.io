@@ -13,7 +13,7 @@ fetch(requestURL)
    //create html elements       
         let card = document.createElement('section');
 
-      
+        let infodiv = document.createElement('div');
 
         let h2 = document.createElement('h2'); 
         let h3 =document.createElement('h3');
@@ -21,23 +21,25 @@ fetch(requestURL)
         let pop = document.createElement('p')
         let rain = document.createElement('p');
         let image = document.createElement('img');
-        image.setAttribute('alt', towns[i].name);
+       
    //assign content to the elements 
-        h2.textContent = towns[i].name; 
-        h3.textContent = towns[i].motto;
-        year.textContent = 'Year Founded: ' + towns[i].yearFounded;
-        pop.textContent = 'Population: ' + towns[i].currentPopulation;
-        rain.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+        h2.innerHTML = towns[i].name; 
+        h3.innerHTML = towns[i].motto;
+        year.innerHTML= 'Year Founded: ' + towns[i].yearFounded;
+        pop.innerHTML = 'Population: ' + towns[i].currentPopulation;
+        rain.innerHTML = 'Average Rainfall: ' + towns[i].averageRainfall;
         image.setAttribute('src', 'images/' + towns[i].photo);
+        image.setAttribute('alt', towns[i].name);
 
 
    //Append content to HTML 
      
-        card.appendChild(h2); 
-        card.appendChild(h3); 
-        card.appendChild(year);
-        card.appendChild(pop);
-        card.appendChild(rain);
+        infodiv.appendChild(h2); 
+        infodiv.appendChild(h3); 
+        infodiv.appendChild(year);
+        infodiv.appendChild(pop);
+        infodiv.appendChild(rain);
+        card.appendChild(infodiv);
         card.appendChild(image);
 
      
@@ -45,7 +47,9 @@ fetch(requestURL)
 
 
     //commit to document 
+        
         document.querySelector('div.cards').appendChild(card);
+      
 
     }
     }

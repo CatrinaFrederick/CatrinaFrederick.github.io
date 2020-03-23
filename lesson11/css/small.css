@@ -221,6 +221,14 @@ div#articlewrapper{
     font-weight: normal;
 }
 
+.articlelink{
+    color: #842100;
+}
+
+.articlelink:hover{
+    color: #F7931E;
+}
+
 /*----------Home Page----------*/ 
 
    .cards{
