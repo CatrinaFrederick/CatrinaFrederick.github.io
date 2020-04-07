@@ -1,0 +1,75 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+
+/*-------NAVIGATION-------*/
+
+nav button {
+    display: none;
+}
+    nav ul.hide{
+        display: flex;}
+
+    nav ul li {
+        flex: 1 1 100%;
+        float: left;
+}
+
+/*-------Todays Forcast --------*/ 
+section.todaysforcast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+section.todaysforcast h3{
+    grid-column: 1 /span 3;
+    font-family: 'Heebo';
+    font-size: 2.5rem;
+}
+
+section.todaysforcast p {
+    grid-row-start: 2;
+    font-family: 'Heebo';
+    font-size: 1.25rem;
+}
+
+/*------------ 5day Forcast _-------*/ 
+section.forcast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+   }
+
+  section.forcast div {
+    text-align: center;
+    border: 3px solid #18250A;
+
+  }
+
+  section.forcast div h5 {
+      background-color: #18250A;
+      font-family: 'Heebo';
+      font-size: 1.5rem;
+      color: #c5c2b8;
+      padding: 1rem;
+      margin-top: 0;
+  }
+
+  section.forcast div p{
+      font-family: 'Heebo';
+      font-weight: 500;
+      font-size: 1em;
+      color: #18250A;
+  }
+
+    
+  
+/*----------- FOOTER --------------*/
+
+
+
+
+}/* end of media query*/
