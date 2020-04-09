@@ -1,0 +1,22 @@
+{
+    "acitiviies": [{
+        "name": "The Big Stump",
+        "photo": "",
+        "description": "Augustus T. Dowd was chasing a wounded grizzly bear into an unfamiliar forest. Suddenly he was stopped in his tracks by an unbelievable sight – a tree of monstrous proportions that was easily three times larger than any he had even seen. Dowd spent the rest of the day exploring the area before returning to his campsite in the hills above Murphy’s gold mining camp. In 1853, the year after Dowd’s discovery, the very tree he had first seen was stripped of its bark and felled by ambitious speculators. Since no saw was large enough, the tree was felled with other tools of that era, such as long-handled pump augers and wedges. You can see the marks made by the augers on the  fallen part of the tree.  It took five men 22 days to drill all the holes, but the perfectly symmetrical tree did not fall for several days.",
+        "visitors":"150,000"
+    },
+
+    {
+        "name": "The Three Graces",
+        "photo":"",
+        "description":"This group of redwoods, named for the Three Graces of Greek Mythology (Aglaia,Euphrosyne, and Thalia), may have started life together when fire or a falling tree    provided access to the mineral soil and sunlight needed by the tiny seeds.  There are two types of redwoods in California:  Sierra redwoods—the world’s largest living things; and coast redwood—the world’s tallest living things.  Although these trees are related, they differ in many ways.  One difference is that the Sierra redwoods reproduce only by seed, while the coast   redwoods can also reproduce by sprouting from their roots, burls and stumps.",
+        "visitors":"130,000"
+    },
+    {
+        "name":"The Siamese Twins",
+        "photo":"",
+        "description":"The Siamese Twins started life so close together that the first 50 feet (15 m) of their 8 trunks have merged and now appear to be one tree. Large burn scars were created by burning fuel that was caught between the two trees.    Look for a horizontal cut in the bark on the tree to the right of the twins. This was probably the location of one of the marble name plaques which were placed on many of the trees     starting in the early 1860s.  Bark and wood also were collected from the trees as souvenirs such as pincushions, candle holders, and carved animals.  In some groves bark was removed and shredded for house insulation",
+        "visitors":"120,000"
+    }
+]
+}
