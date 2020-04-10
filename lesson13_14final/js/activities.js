@@ -6,8 +6,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const activities = jsonObject['activities'];
+console.log(activities);
 
-      
     //loop to check array for requested infromation 
     for (let i = 0; i < activities.length; i++ ) {
   
