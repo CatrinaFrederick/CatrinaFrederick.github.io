@@ -1,15 +1,15 @@
-const requestURL = "\CatrinaFrederick.github.io\lesson13_14final\activities.json"
+const requestURL= "..js/activities.js"
 
 fetch(requestURL)
-  .then(function (response) {
+ .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    const acitiviies = jsonObject['activities'];
-    console.log ('acitiviies')
+    const activities = jsonObject['activities'];
+
       
     //loop to check array for requested infromation 
-    for (let i = 0; i < acitiviies.length; i++ ) {
+    for (let i = 0; i < activities.length; i++ ) {
   
         let card = document.createElement('section');
 
@@ -18,15 +18,16 @@ fetch(requestURL)
         let h2 = document.createElement('h2'); 
         let image = document.createElement('img');
         let descript = document.createElement('p');
-        let visit= document.createElement('p')
+        let visit= document.createElement('p');
         
        
    //assign content to the elements 
-        h2.innerHTML = acitiviies[i].name; 
-        image.setAttribute('src', 'images/' + acitiviies[i].photo);
-        image.setAttribute('alt', towns[i].name);
-        descript.innerHTML= acitiviies[i].description;
-        visit.innerHTML = 'Visitors Last Year: ' + acitiviies[i].visitors;  
+        h2.innerHTML = activities[i].name; 
+        console.log (activities[i].name);
+        image.setAttribute('src', 'images/' + activities[i].photo);
+        image.setAttribute('alt', activities[i].name);
+        descript.innerHTML= activities[i].description;
+        visit.innerHTML = 'Visitors Last Year: ' + activities[i].visitors;  
       
 
    //Append content to HTML 
