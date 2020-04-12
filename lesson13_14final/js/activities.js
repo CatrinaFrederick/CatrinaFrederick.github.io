@@ -1,4 +1,4 @@
-const requestURL= "..js/activities.js"
+const requestURL= "//activities.json"
 
 fetch(requestURL)
  .then(function (response) {

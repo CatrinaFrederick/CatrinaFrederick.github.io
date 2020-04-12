@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Home Calaveras Big Trees National Park">
+    <meta name="description" content="Contact Us Calaveras Big Trees National Park">
     <meta name="author" content="Catrina Frederick">
     <link rel="shortcut icon" href="images/favicon.png">
 
 
-    <title>Home</title>
+    <title>Contact Us</title>
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,6 +16,9 @@
 
 
     <!--EMBEDED FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- phone-default -->
@@ -33,9 +36,11 @@
     <!-- HEADER HERE -->
     <div id="headerWrapper">
         <header class="clearfix">
-            <a href="index.html"><img class="logo" src="images/logo2x.jpg" alt="Place Holder"></a>
-            <h1>Calaveras Big Trees National Park</h1>
-            <h2>Where You Can Walk Among Giants</h2>
+            <a href="index.html"><img class="logo" src="images/logo@2x.png" alt="Logo"></a>
+            
+            <h1>Big Trees National Park</h1>
+            <h2>Arnold Californa</h2>
+          
         </header>
     </div>
 
@@ -47,40 +52,58 @@
             <ul id="mainNav" class="hide">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="activities.html">Activities</a></li>
-                <li><a href="visitus.html">Visit US</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="visitus.html">Visit Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li ><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
     </div>
 
     <div class="herodiv">
-        <div>
+        <div class="clearfix">
             <picture class="hero1">
                 <source media="(max-width:200)" srcset="images/homeherosmall.jpg">
                 <source media="(max-width:500)" srcset="images/hoomeheromedium.jpg">
-                <source media="(max-width:800)" srcset="images/homeherolarge.jpg">    
-            <img src="images/homeherolarge.jpg" alt="Man on Mountain" class="heroimages">
+                <source media="(max-width:800)" srcset="images/homeherolarge.jpg">
+                <img src="images/homeherolarge.jpg" alt="Man on Mountain" class="heroimages">
             </picture>
         </div>
-   <h1>“The redwoods, once seen, leave a mark or create a vision that stays with you always." ~ John Stienbeck</h1>
-   <section class="todaysforcast">
-    <h3 class="forcasth3">Todays Forcast</h3> 
-    <p class="p1">Current: <span id="current">0</span>&deg;F</p>
-    <p class="p2">High: <span id="high">0</span>&deg;F</p>
-    <p class="p3">  Feels Like: <span id="feelslike">0</span>&deg;F</p>
-    <p class="p4">Humidity: <span id="humidity">0</span>&percnt;</p>
-    <p class="p5">Wind Speed: <span id="windspeed"></span>mph</p>
-    <p class="p6" id="wchill"> </p>
-</section>
+        <div>
+            <h1 class="quote">“The redwoods, once seen, leave a mark or create a vision that stays with you always." ~
+                John Stienbeck</h1>
+        </div>
+    </div>
+    <section class="todaysforcast">
+        <h3 class="forcasth3">Todays Forcast</h3>
+        <p class="p1">Current: <span id="current">0</span>&deg;F</p>
+        <p class="p2">High: <span id="high">0</span>&deg;F</p>
+        <p class="p3"> Feels Like: <span id="feelslike">0</span>&deg;F</p>
+        <p class="p4">Humidity: <span id="humidity">0</span>&percnt;</p>
+        <p class="p5">Wind Speed: <span id="windspeed"></span>mph</p>
+        <p class="p6" id="wchill"> </p>
+    </section>
     <main class="clearfix">
-            <h1> Five Day Forcast</h1>
-            <section id="fivedayforcast" class="forcast"></section>
+        <h1 class="pagename"> Five Day Forcast</h1>
+        <section id="fivedayforcast" class="forcast"></section>
+
+        <h1 class="pagename">About Calaveras Big Trees National Park </h1>
+        <p class="green">  Our Park was discovered in 1852, when hunter Augustus Dowd chased a bear into the forest at Calaveras, and was stopped in his tracks by the
+            sight of trees many times more massive than any he’d ever seen. He began spreading the word of the amazing
+            trees. Since its discovery Calaveras Big Trees National Park had became a popular tourist attraction, unfortunately, one ofits most sizable trees — the
+            one that made Dowd’s jaw drop — was cut down for exhibition and profit shortly after its discovery.  </p>
+        <p> Caclaveras Big Trees was Established as a national park in 1931, Calaveras Big Trees State Park preserves two groves of giant sequoias - the world's
+            largest trees - in the North and South Groves. The park is a mixed-conifer forest (a variety of trees living
+            together). In addition to the giant trees, you will find the Stanislaus River, Beaver Creek, ancient
+            volcanic formations, and natural meadows. Trails throughout the park allow you to discover the natural
+            beauty that has awed visitors to the area since 1852.</p>
+       
     </main>
+
 
     <div class="footerWrapper">
         <footer>
-            &copy; 2020 &bull; Catrina Frederick &bull;<a href="#"> Terms of Use</a> &bull; <script
-                src="js/currentdate.js"></script>
+            &copy; 2020 &bull; Catrina Frederick &bull;<a href="//127.0.0.1:5500/index.html"> My Portal</a> &bull;
+            <script src="js/currentdate.js"></script>
         </footer>
         <script src="js/webfrontload.js"></script>
         <script src="js/togglemenu.js"></script>
@@ -88,4 +111,5 @@
     </div>
 
 </body>
+
 </html>

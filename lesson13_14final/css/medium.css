@@ -15,6 +15,7 @@ nav button {
         flex: 1 1 100%;
         float: left;
 }
+/*-------Main-------*/
 
 /*-------Todays Forcast --------*/ 
 section.todaysforcast{
@@ -65,7 +66,17 @@ section.forcast{
       color: #18250A;
   }
 
-    
+    /*-------Seasonal Activities-----------*/ 
+
+.seasonal{
+    display: grid;
+    grid-template-columns: 50% 50% 100%;
+
+}
+ 
+#lastsection{
+    grid-column: span 2;
+}
   
 /*----------- FOOTER --------------*/
 
@@ -77,8 +88,18 @@ section.forcast{
     float: right;
 }
 
+.contact{
+    background-color: #4B2926;
+    color: #c5c2b8;
+    padding: 1em;
+}
+
+   
+    /*---------Gallery Rules-------*/
 
 
-
+  #galleryimages{
+    grid-template-columns: 1fr 1fr;
+}
 
 }/* end of media query*/

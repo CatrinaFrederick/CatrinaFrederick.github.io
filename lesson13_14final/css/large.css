@@ -11,6 +11,23 @@
 
 
 /*----------- HEADER --------------*/
+.logo{
+    
+    max-width: 15rem;
+}
+
+
+
+header h1 {
+    font-size: 3em;
+   
+}
+
+header h2 {
+    font-size: 1.8em;
+   
+
+}
 
 
 
@@ -32,11 +49,34 @@
    
  }
  
+   /*-------Seasonal Activities-----------*/ 
 
-   
+   .seasonal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+ 
+#lastsection{
+    grid-column: span 1;
+}
+  
+ 
 
 
 /*----------- FOOTER --------------*/
 /*---------Gallery Rules-------*/
+
+#galleryimages{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallerycaption{
+    display: block;
+}
+
+figure:hover{
+    box-shadow: 0 0 10px #eeeeee;
+}
     
  } /* end of media query */
