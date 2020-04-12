@@ -153,6 +153,12 @@ h1 {
     color: #18250A;
 
 }
+
+.quote{
+    background-color: #c5c2b8;
+    padding: .5em;
+    margin: 0 auto;
+}
 /*-------Todays Forcast --------*/
 section.todaysforcast {
     display: block;
@@ -166,7 +172,7 @@ section.todaysforcast {
     text-align: left;
     padding-left: 1rem;
     margin-top: .5em;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .todaysforcast p {
