@@ -1,0 +1,15 @@
+@import "normalize"; 
+
+@import "small";
+
+@media only screen and (min-width: 560px){
+
+    @import "medium";
+
+}  /*end of medium media query */
+
+@media only screen and (min-width: 1028px) {
+
+    @import "large";
+    
+}/*end of large media query*/ 
