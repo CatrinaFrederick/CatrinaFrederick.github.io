@@ -6,44 +6,44 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+/* line 12, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
 /**
  * Remove the margin in all browsers (opinionated).
  */
+/* line 25, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
+/* line 33, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 article,
 aside,
 footer,
 header,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 47, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -51,43 +51,43 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
+/* line 60, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 figcaption,
 figure,
 main {
   /* 1 */
-  display: block;
-}
+  display: block; }
 
 /**
  * Add the correct margin in IE 8.
  */
+/* line 70, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 79, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 90, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
@@ -95,128 +95,128 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+/* line 103, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 113, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+/* line 123, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 b,
 strong {
-  font-weight: inherit;
-}
+  font-weight: inherit; }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 132, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 142, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font style in Android 4.3-.
  */
+/* line 153, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
+/* line 161, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 mark {
   background-color: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Add the correct font size in all browsers.
  */
+/* line 170, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 179, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
+/* line 187, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
+/* line 191, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
  */
+/* line 202, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 audio,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in iOS 4-7.
  */
+/* line 211, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
+/* line 220, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
+/* line 228, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Forms
    ========================================================================== */
@@ -224,6 +224,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 240, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -236,69 +237,68 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 256, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 266, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 277, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 288, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 300, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
+/* line 311, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -306,6 +306,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 322, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -318,76 +319,75 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 336, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
+/* line 345, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+/* line 354, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+/* line 364, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+/* line 374, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+/* line 383, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 393, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
@@ -395,191 +395,183 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
+/* line 406, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 details,
 menu {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
+/* line 415, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Scripting
    ========================================================================== */
 /**
  * Add the correct display in IE 9-.
  */
+/* line 426, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 canvas {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
+/* line 434, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 template {
-  display: none;
-}
+  display: none; }
 
 /* Hidden
    ========================================================================== */
 /**
  * Add the correct display in IE 10-.
  */
+/* line 445, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_normalize.scss */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* line 2, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 html {
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
+  -ms-text-size-adjust: 100%; }
 
 /*----------- apply a natural box layout model to all elements --------------*/
+/* line 5, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* body rules */
+/* line 8, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 body {
   font-family: Verdana;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
+/* line 13, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 header {
-  background-color: #17a8e4;
-  padding: 1rem 2%;
-}
+  background-color: #333;
+  padding: 1rem 2%; }
 
+/* line 17, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 header h1 {
   margin: 0;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
+/* line 21, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 header h2 {
   margin: 0;
   font-size: 1.2rem;
-  font-weight: normal;
-}
+  font-weight: normal; }
 
+/* line 27, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 nav {
-  background-color: #111;
-}
+  background-color: #111; }
 
+/* line 28, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 nav ul {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
+/* line 29, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 nav li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
+/* line 30, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 nav li.active {
-  background-color: #333;
-}
+  background-color: #333; }
 
+/* line 31, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 nav a {
   display: block;
   padding: .8rem 0;
   /*44px min*/
   color: #eee;
   text-align: center;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
+/* line 38, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 nav a:hover {
-  background-color: #444;
-}
+  background-color: #444; }
 
+/* line 40, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 main {
   display: block;
-  padding: 1rem 2%;
-}
+  padding: 1rem 2%; }
 
+/* line 41, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 main h1 {
-  color: #17a8e4;
-}
+  color: #17a8e4; }
 
+/* line 43, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 main figure img {
-  width: 100%;
-}
+  width: 100%; }
 
+/* line 44, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 main figure {
   margin: 0;
-  width: 100%;
-}
+  width: 100%; }
 
+/* line 49, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 main figcaption {
   text-align: center;
-  font-size: .8rem;
-}
+  font-size: .8rem; }
 
+/* line 54, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 footer {
-  background-color: #17a8e4;
+  background-color: #333;
   text-align: center;
-  padding: 1rem 2%;
-}
+  padding: 1rem 2%; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
+/* line 62, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_small.scss */
 .clearfix:after {
   content: "";
   display: table;
-  clear: both;
-}
+  clear: both; }
 
-@media only screen and (min-width: 560px) and (min-width: 560px) {
+@media only screen and (min-width: 560px) {
+  /* line 2, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_medium.scss */
   nav li {
     width: 25%;
-    float: left;
-  }
+    float: left; }
+  /* line 5, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_medium.scss */
   main figure {
     float: right;
     width: 48%;
     margin-left: 2%;
-    padding-bottom: .5rem;
-  }
+    padding-bottom: .5rem; }
+  /* line 12, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_medium.scss */
   div.news {
     clear: both;
     column-count: 2;
-    column-rule: 1px solid #ddd;
-  }
-}
-
-@media only screen and (min-width: 560px) {
-  /* end of media query */
-}
+    column-rule: 1px solid #ddd; } }
 
 /*end of medium media query */
-@media only screen and (min-width: 1028px) and (min-width: 1028px) {
+@media only screen and (min-width: 1028px) {
+  /* line 2, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_large.scss */
   header, nav, main, footer {
     max-width: 1200px;
-    margin: auto;
-  }
+    margin: auto; }
+  /* line 9, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_large.scss */
   nav ul {
-    padding-left: 2%;
-  }
+    padding-left: 2%; }
+  /* line 10, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_large.scss */
   nav li {
-    width: auto;
-  }
+    width: auto; }
+  /* line 11, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_large.scss */
   nav a {
-    padding: .5rem 1rem;
-  }
+    padding: .5rem 1rem; }
+  /* line 13, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_large.scss */
   main figure {
-    width: 31%;
-  }
+    width: 31%; }
+  /* line 15, ../../../Documents/Catrina School Work/CIT 230/CatrinaFrederick.github.io/lesson12/scss/_large.scss */
   div.news {
-    column-count: 3;
-  }
-}
-
-@media only screen and (min-width: 1028px) {
-  /* end of media query */
-}
+    column-count: 3; } }
 
 /*end of large media query*/
+
+/*# sourceMappingURL=style.css.map */
