@@ -1,0 +1,232 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+   }
+
+/*----------- BODY --------------*/
+body{
+    margin: 0 auto;
+    background-color: #FAEBD7;
+}
+
+
+a {
+   text-decoration: none;
+   font-family: 'Lora', serif;
+}
+
+
+
+/*----------- HEADER --------------*/
+
+header{
+    margin-top: 0;
+    padding: 1em;
+    background-color:  #6495ED;
+    text-align: right;
+}
+
+h1 a{
+    color:#FAEBD7;
+    font-family: 'Lora', serif;
+    font-size: 2.2rem;
+}
+
+
+
+
+/*----------- NAVIGATION --------------*/
+nav a{
+    color:#FAEBD7;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+nav a:active{
+    color: #DEB887;
+}
+nav a:visited{
+   color: #FAEBD7;
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type:none;
+}
+
+li{
+    padding:.4em; 
+    
+}
+/*----------- MAIN --------------*/
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+.post-date{
+    font-family: Arial, Helvetica, sans-serif ;
+    color:grey ;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+article {
+    margin: 1em;
+    padding: 2em;
+    padding-left: 3em;
+    background-color: #ffffff;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+}
+
+
+h2 a {
+    color: #000000;
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    
+}
+
+h2 a:active{
+    color: #DEB887 ;
+      
+}
+
+h2 a:hover{
+    color: #6495ED;
+    text-decoration: underline ;
+}
+img {
+   display: block;
+   max-width: 90%;
+   margin-left: auto;
+   margin-right:auto;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p a {
+    color: #6495ED;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+p a:visited{
+    color:  #6495ED;
+}
+
+p a:active{
+    color: #DEB887;
+}
+
+p a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+/*----------- FOOTER --------------*/
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+ 
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+   
+
+    /*----------- HEADER --------------*/
+header{
+    width: 15%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    margin: 0 auto;
+   height: 100%;
+}
+    /*----------- NAVIGATION --------------*/
+    
+    
+  
+    
+
+    /*----------- MAIN --------------*/
+    article{
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    
+    /*----------- FOOTER --------------*/
+
+
+
+
+ 
+/* end of media query*/
+
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+
+    /*----------- BODY --------------*/
+
+
+
+    /*----------- HEADER --------------*/
+
+
+
+    /*----------- NAVIGATION --------------*/
+
+
+
+    /*----------- MAIN --------------*/
+
+
+
+
+
+    /*----------- FOOTER --------------*/
+
+
+
+
+}
+
+}
+/* end of media query */
